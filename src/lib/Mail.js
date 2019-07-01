@@ -2,7 +2,7 @@ import nodemailer from 'nodemailer';
 
 // email template
 import exphbs from 'express-handlebars';
-import nodemailerhbs from 'nodemailer-handlebars';
+import nodemailerhbs from 'nodemailer-express-handlebars';
 import { resolve } from 'path';
 
 import mailConfig from '../config/mail';
